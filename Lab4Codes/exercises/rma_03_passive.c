@@ -93,7 +93,6 @@ int main(int argc, char ** argv)
 
     /* print individual stats */
     printf("  proc   minimum  maximum    mean  standard_dev\n");
-    printf("-----------------------------------------------\n");
     for (int i=0; i<mpi_size; i++)
     {
       printf("  %3d   %8.4lf %8.4lf %8.4lf %10.4lf\n",
