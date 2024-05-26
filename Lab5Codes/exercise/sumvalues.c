@@ -116,6 +116,7 @@ void __rsv_set_comm_attr()
 {
   #define CUSTOM_UNIVERSE_SIZE       usk
 
+  int usk = 0;
   int usv = CUSTOM_UNIVERSE_SIZE_VALUE;
 
   MPI_Comm_create_keyval( MPI_COMM_NULL_COPY_FN, MPI_COMM_NULL_DELETE_FN,
