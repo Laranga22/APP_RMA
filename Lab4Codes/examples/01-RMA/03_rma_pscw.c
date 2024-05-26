@@ -117,8 +117,6 @@ int main(int argc, char ** argv)
     MPI_Win_complete(win);
     printf("Process %d ends access epoch\n", rank);
 
-
-
     printf(">> Process %d starts exposure epoch\n", rank);
 
     /* start exposure epoch */

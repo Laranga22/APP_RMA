@@ -103,7 +103,7 @@ int main(int argc, char ** argv)
       Otherwise it breaks the atomicity of these 2 operations.
       Try with different MPI implementations  */
 
-   //MPI_Win_flush_local(ROOT_RANK, win);
+   MPI_Win_flush_local(ROOT_RANK, win);
 
     printf("Process %d, put %d elements with offset %d\n",
            rank, my_size, my_offset);
